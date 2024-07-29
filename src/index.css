@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-800
+}
+input{
+    @apply bg-gray-200
+}
+input:hover{
+    @apply bg-gray-100 hover:outline-green-400
+}
